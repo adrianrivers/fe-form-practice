@@ -12,11 +12,11 @@ The form has a title reading "Contact form".
 
 The form has these fields:
 
-* `Email` must be a valid email address.
-* `Password` must be longer than 8 characters.
-* `Colour` is multichoice, where only one option may be selected, and the options are `Blue`, `Green`, `Red`, `Black` and `Brown`.
-* `Animals` is multichoice, where multiple options can be selected, and the options are `Bear`, `Tiger`, `Snake`, and `Donkey`.
-* If `Tiger` is selected then a textbox `Type of tiger` is revealed and this is a required field.
+- `Email` must be a valid email address.
+- `Password` must be longer than 8 characters.
+- `Colour` is multichoice, where only one option may be selected, and the options are `Blue`, `Green`, `Red`, `Black` and `Brown`.
+- `Animals` is multichoice, where multiple options can be selected, and the options are `Bear`, `Tiger`, `Snake`, and `Donkey`.
+- If `Tiger` is selected then a textbox `Type of tiger` is revealed and this is a required field.
 
 Feel free to decide any styling, responsive behaviour, or any text for error messages or labels or placeholders etc, yourself.
 
