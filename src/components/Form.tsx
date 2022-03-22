@@ -56,10 +56,9 @@ export default function Form() {
   const handleFormSubmit = async (values: FormValues, actions: FormikHelpers<FormValues>) => {
     await new Promise((r) => setTimeout(r, 500))
     const formattedValues = JSON.stringify(values, null, 2)
-
     actions.setSubmitting(false)
     alert(`Form submitted with values: ${formattedValues}`)
-    actions.resetForm()
+    window.location.reload()
   }
 
   const formik = useFormik({
@@ -130,6 +129,7 @@ export default function Form() {
                   value={choice}
                   onChange={formik.handleChange}
                   colorScheme="green"
+                  id={`${index}-${choice}`}
                 >
                   {choice}
                 </Checkbox>
